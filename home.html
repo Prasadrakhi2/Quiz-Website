@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive nav bar </title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+<body>
+   <nav>
+        <label class="logo">DesignX</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#contect">About</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <br>
+    <div class="parent">
+        
+        <div class="child">
+            <div class="heading">
+               <h1>Apptitude Website</h1>
+            </div>
+            <div class="paragraph">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias at esse aliquam consequuntur quod eius delectus omnis sed incidunt quasi ipsa illum assumenda, quam commodi voluptatum iste perspiciatis? At nesciunt ipsam autem ratione necessitatibus impedit, debitis alias rerum? Adipisci mollitia pariatur saepe vitae reprehenderit tempore laborum amet sapiente illo.</p>
+            </div>
+            <div class="button">
+               <button><a href="quiz.html">Start Test</a></button>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="body2">
+            <section id="Services">
+            <div class="h1">
+                <h1>Services</h1>
+            </div>
+       <div id="perent">
+        <div class="class" id="class1">
+            <div class="c">
+               <img src="test1.png" width="230px" height="140px" alt="">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nostrum ea iure, dolorum nemo iusto? Iste a totam delectus omnis!</p>
+            </div>
+        </div>
+        <div class="class" id="class1">
+            <img src="test2.png" width="230px" height="140px" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nostrum ea iure, dolorum nemo iusto? Iste a totam delectus omnis!</p>
+        </div>
+        <div class="class" id="class">
+            <img src="test3.jpg" width="190px" height="140px" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nostrum ea iure, dolorum nemo iusto? Iste a totam delectus omnis!</p>
+        </div>
+    </div>
+    </section>
+    </div>
+    
+
+    <div class="body4">
+        <section id="contect">
+            <div class="footer">
+                <footer id="footer">
+                    <div class="services1" id="one">
+                        <h3><b>About</b></h3>
+                        <br>
+                        <p>Our Website provides the better platform to the users where they can practice for their test</p>
+                        <br>
+                    <div class="socialmedia">
+                        <a class="link" id="facebook"  href="http://facebook.com" ><i class="fa-brands fa-facebook" ></i></a>
+                        <a class="link" id="insta" href="http://fa-instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="link" id="twitter" href="http://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    </div>
+                     <div class="services1" id="two">
+                        <div class="contectform">
+                         <h3>Contact <b>Form</b></h3>
+                         <form action="">
+                             <p><input type="text" placeholder="Full Name"></p>
+                             <p><input type="email" placeholder="Email Address"></p>
+                             <p><input type="number" placeholder="Phone Number"></p>
+                             <p><input type="submit" placeholder="SEND MESSAGE"></p>
+                         </form>
+                        </div>
+                     </div>
+                    
+                </footer>
+            </div>
+    
+        </section>
+</body>
+</html>
